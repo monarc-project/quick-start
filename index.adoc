@@ -1,0 +1,249 @@
+= MONARC Quick Start
+"security made in Lëtzebuerg" (SMILE) g.i.e.
+:Date: 2017-09-05
+:Revision:  0.1
+:description: MONARC Quick Start
+:keywords: risk-analysis, monarc
+:doctype: article
+:compat-mode!:
+:page-layout!:
+:toc: left
+:toclevels: 2
+:sectanchors:
+:sectlinks:
+:sectnums:
+:linkattrs:
+:webfonts!:
+:icons: font
+:source-highlighter: coderay
+:source-language: asciidoc
+:experimental:
+:stem:
+:idprefix:
+:idseparator: -
+:ast: &ast;
+:dagger: pass:normal[^&dagger;^]
+:endash: &#8211;
+:y: icon:check[role="green"]
+:n: icon:times[role="red"]
+:c: icon:file-text-o[role="blue"]
+:table-caption!:
+:example-caption!:
+:figure-caption!:
+:imagesdir: images
+:includedir: _includes
+:underscore: _
+:adp: AsciiDoc Python
+:adr: Asciidoctor
+
+
+== Introduction
+
+=== Purpose
+
+The purpose of this document is to help get started quickly with MONARC.
+It explains the main features of the tool and the necessary steps to
+deal with a risk with the default settings.
+
+
+=== Other documents
+
+* link:/Tool-guide[*Tool guide*]: Complete documentation of the tool.
+* link:/Method-guide[*Method guide*]: Complete documentation of the
+method.
+* link:/technical-guide[*Technical guide*]: Complete technical
+documentation.
+
+
+=== Syntax used in the document
+
+image:Step.png[Cursor] : All numbers in white on a red
+background are used on print-screen views to provide additional
+explanations. Explanations are always after the view with the
+corresponding numbering. *i.e.* 1.
+
+`Reference` : MONARC Reference
+
+
+=== Syntax used in MONARC
+
+image:Menu.png[Menu] : Button that always brings up the menu.
+
+image:CreateButton.png[Create] : Creating/adding something in
+context (assets, recommendations, etc.).
+
+image:Cursor.png[Cursor] : Most fields of MONARC display
+additional information when the pointer stay unmoved some time.
+
+== Creating the first risk analysis
+
+After clicking on
+`Create a risk analysis`, the following pop-up appear
+
+image:NewRiskAnalysis.png[Create a risk analysis]
+
+1.  Select `CASES model`
+2.  There are at least two choices. Select `Modelling CASES`, this is
+the default template. It provides sufficient knowledge bases to start an
+analysis.
+3.  `Show inherent operational risks`. This option does not matter right
+now.
+4.  Select your preferred language for this new analysis. (FR/EN/DE)
+5.  Give your analysis a name, for example __My analysis__.
+6.  Optional field, which allows you to describe your analysis with more
+details.
+
+== Description of the main view
+
+image:Main.png[Main view]
+
+1.  Risk Analyses panel: Create and select a risk analysis. Once the
+analysis is selected, the dashboard can be retracted to optimize the
+horizontal space by clicking on the symbol
+image:HideRiskAnalysesPanel.png[Hide Risk Analyses panel icon].
+2.  Navigation panel, users administration and account management.
+3.  Access to steps of the method by clicking on numbers 1 to 4.
+4.  Contextual working areas of analysis.
+
+== Simplified risk analysis
+
+=== Risk identification (default modeling)
+
+It is necessary to use the
+assets of the library and place them in the analysis. If the risk
+analysis does not contain any assets, follow the instructions below,
+otherwise go to the next chapter. MONARC proposes by default a structure
+where primary assets (Business) must be placed on the root of the
+analysis and supporting assets below. In order to simplify this step,
+two groups of assets have been created:
+
+* `Front-Office`: This asset group provides the identification of the
+common risks found on the user’s side for a “Human Resources” department
+(for example, risks related to the office, computers, applications,
+physical & environmental risks…).
+* `Back-Office`: These assets group provide the identification of
+transversal risks of the organization related to the IT and to
+organizations in general.
+
+image:Modelling.png[Modelling]
+
+Click on the `+` or the `-` to expand or wrap all categories of the
+library.
+
+1.  In the category `Primary assets`, click on `Department` and then, by
+holding down the left mouse button, move the asset to the analysis area
+just above (Drag and Drop).
+2.  In the category `Model Structure` find the assets `Front Office` and
+`Back Office` and then, by holding down the left mouse button, move the
+asset on the asset Department, which is now in the analysis area.
+
+image:Model.png[Model]
+
+1.  The risk analysis now offers a model for __Department__.
+2.  The _Front Office_ now offers a default identification of the risks
+on the users’ side.
+3.  The _Back Office_ now offers a default identification of the risks,
+for IT and organization.
+4.  The total number of risks in this model is 84 (in this case).
+
+**Note**: Identified risks by default are the risks commonly encountered
+and supposed to be significant, they do not claim to be exhaustive.
+
+=== Edit impacts and consequences
+
+The aim is to define impacts and consequences for primary assets that can result
+from an occurrence of a
+risk from the model. In the case of this analysis, the primary asset is
+__Department__.
+
+image:EditImpacts.png[Edit impacts]
+
+1.  Click on the primary asset `Department`.
+2.  Click on the symbolimage:Menu.png[Menu]to display the
+context menu of the asset.
+3.  Click on `Edit impacts`.
+
+The pop-up below appears.
+
+image:Impacts.png[Impacts]
+
+1.  Consultation of impact scales is done through the menu at the top
+right of the screen. _By leaving the pointer unmoved over the numbers,
+the meaning of this number appears after one second._
+
+When one of the criteria *C* (confidentiality), *I* (integrity) or *A*
+(availability) is allocated, there is a need to ask : what are the
+consequences on the company, and more particularly on its ROLFP, i.e.
+its **R**eputation, its **O**peration, its **L**egal, its **F**inances
+or the impact on the **P**erson (in the sense of personal data).
+
+In the case of the above figure, the `3` (out of 5) impact on
+confidentiality, is explained by the maximum value ROLFP regarding
+confidentiality. Example, `3` is the consequence for the person in case
+of disclosure of his personal file.
+
+=== Risk assessment
+
+image:RiskAssessment.png[Risk assessment]
+
+1.  Click on a secondary asset, for example `Building`.
+2.  `CIA Impact`: It has been assigned to the _Department_ is inherited
+by default and are no longer required.
+3.  `Threat`: _Theft or destruction of media, documents or equipment_ is
+a physical threat that expresses fear of being robbed or destroyed
+materials.
+4.  `probability (Prob.)` : This is an estimate of the probability on a
+scale of 1 to 4 that the threat occurs. Take, for example, the case of a
+very large company where this threat is above average, so **3**.
+5.  `Vulnerability`: __The principle of least privilege is not
+applied__. The security principles searched are to know who has access
+rights and whether they related to the duties of the people involved.
+6.  `Existing controls`: Describe, in a factual manner, the security
+controls in place regarding this vulnerability or, more broadly, the
+risk in question. Take, for example, a second unfavorable case, for
+example a hospital where the whole building is like a public area.
+7.  `Qualification (Qualif.)` : In relation to the measure in place
+(point 6 above), the vulnerability qualification is therefore maximum
+*5* out of 5.
+8.  `Current Risk` : All the parameters for calculating the risk are
+present, the current risk is therefore calculated based on the CIA
+values, which are directly dependent on the threat.
+
+**Note**: By leaving the pointer on most fields, a tooltip appears after
+1 second.
+
+=== Risk treatment
+
+The risk treatment consists in proposing one of the 4 types of
+treatment, knowing that most of the time the treatment is to reduce the
+risk by allocating a control, or to accept a weak risk. To access click
+on `Not treated` in __Treatment column__.
+
+image:RiskTreatment.png[Risk treatment]
+
+1.  Create one or many recommendations.
+2.  Define the treatment type (according to ISO / IEC 27005).
+3.  Estimate the risk-reducing value in order to define the residual
+risk.
+4.  Save the treatment.
+
+=== Risk treatment plan management
+
+image:PlanTreatment.png[Plan risk treatment]
+
+In that case, the risk treatment plan only consists in one risk, but
+once all risks are treated, all risks and information risk
+recommendations will be in the treatment plan.
+
+1.  The call of the pop-up is done by clicking on the 3rd step of the
+method and `Risk treatment plan management`.
+2.  Order the recommendation positions holding down the left mouse
+button on symbol image:MoveButton.png[Move button] and move it.
+3.  Reset the positions in importance order (Imp.)
+4.  Edit recommendation
+
+A final report of risk analysis can be generated by clicking on the 3rd
+step of the method and `Deliverable: final report`.
+
+**Note**: Deliverables are only relevant when the MONARC method has been
+fully processed and all information has been entered.
