@@ -1,9 +1,9 @@
 # MONARC quick start
 
-[MONARC](http://monarc.lu), quick start.
+[MONARC](http://monarc.lu) quick start.
 
-In order to generate the documentation install
-[Asciidoctor](http://asciidoctor.org/#installation), then:
+In order to generate the quick start install
+[Asciidoctor](http://asciidoctor.org/#installation):
 
 ```bash
 $ sudo apt-get install asciidoctor
