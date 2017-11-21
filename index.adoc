@@ -1,5 +1,6 @@
-= MONARC Quick Start
-"security made in Lëtzebuerg" (SMILE) g.i.e.
+= Quick Start
+CASES Luxembourg <info@cases.lu>
+:title-logo-image: images/header.svg
 :Date: 2017-09-05
 :Revision:  0.1
 :description: MONARC Quick Start
@@ -50,10 +51,10 @@ deal with a risk with the default settings.
 
 [NOTE]
 ===============================================
-* link:/Tool-guide[*Tool guide*]: Complete documentation of the tool.
-* link:/Method-guide[*Method guide*]: Complete documentation of the
+* link:/user-guide[*User Guide*]: Complete documentation of the tool.
+* link:/method-guide[*Method Guide*]: Complete documentation of the
 method.
-* link:/technical-guide[*Technical guide*]: Complete technical
+* link:/technical-guide[*Technical Guide*]: Complete technical
 documentation.
 ===============================================
 
