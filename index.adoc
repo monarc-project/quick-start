@@ -94,7 +94,7 @@ the default template. It provides sufficient knowledge bases to start an
 analysis.
 3.  `Show inherent operational risks`. This option does not matter right
 now.
-4.  Select your preferred language for this new analysis. (FR/EN/DE)
+4.  Select your preferred language for this new analysis. (FR/EN/DE/NL)
 5.  Give your analysis a name, for example __My analysis__.
 6.  Optional field, which allows you to describe your analysis with more
 details.
