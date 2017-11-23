@@ -60,26 +60,31 @@ documentation.
 
 === Syntax used in the document
 
-[horizontal]
-image:Step.png[Cursor]:: All numbers in white on a red
-background are used on print-screen views to provide additional
-explanations. Explanations are always after the view with the
-corresponding numbering. *i.e.* 1.
-
-`Reference`:: MONARC Reference
-[horizontal]
+[cols="^,7a",grid="none",frame="none",valign="middle"]
+|====
+|image:Step.png[Cursor] |All numbers in white on a red background are used on print-screen views to provide additional explanations. Explanations are always after the view with the corresponding numbering. *i.e.* 1.
+|====
+[cols="^a,7a",grid="none",frame="none",valign="middle"]
+|====
+|`Reference` |MONARC Reference
+|====
 
 === Syntax used in MONARC
 
-[horizontal]
-image:Menu.png[Menu]:: Button that always brings up the menu.
+[cols="^,7a",grid="none",frame="none",valign="middle"]
+|====
+|image:Menu.png[Menu]| Button that always brings up the menu.
+|====
+[cols="^,7a",grid="none",frame="none",valign="middle"]
+|====
+|image:CreateButton.png[Create] |Creating/adding something in context (assets, recommendations, etc.).
+|====
+[cols="^,7a",grid="none",frame="none",valign="middle"]
+|====
+|image:Cursor.png[Cursor] |Most fields of MONARC display additional information when the pointer stay unmoved some time.
+|====
 
-image:CreateButton.png[Create]:: Creating/adding something in
-context (assets, recommendations, etc.).
-
-image:Cursor.png[Cursor]:: Most fields of MONARC display
-additional information when the pointer stay unmoved some time.
-[horizontal]
+<<<
 
 == Creating the first risk analysis
 
@@ -99,17 +104,20 @@ now.
 6.  Optional field, which allows you to describe your analysis with more
 details.
 
+<<<
+
 == Description of the main view
 
 image:Main.png[Main view]
 
 1.  Risk Analyses panel: Create and select a risk analysis. Once the
 analysis is selected, the dashboard can be retracted to optimize the
-horizontal space by clicking on the symbol
-image:HideRiskAnalysesPanel.png[Hide Risk Analyses panel icon].
+horizontal space by clicking on icon image:HideRiskAnalysesPanel.png[Hide Risk Analyses panel icon,pdfwidth=3%,width=3%].
 2.  Navigation panel, users administration and account management.
 3.  Access to steps of the method by clicking on numbers 1 to 4.
 4.  Contextual working areas of analysis.
+
+<<<
 
 == Simplified risk analysis
 
@@ -165,7 +173,7 @@ __Department__.
 image:EditImpacts.png[Edit impacts]
 
 1.  Click on the primary asset `Department`.
-2.  Click on the symbolimage:Menu.png[Menu]to display the
+2.  Click on icon image:Menu.png[Menu,pdfwidth=4%,width=4%]to display the
 context menu of the asset.
 3.  Click on `Edit impacts`.
 
@@ -246,7 +254,7 @@ recommendations will be in the treatment plan.
 1.  The call of the pop-up is done by clicking on the 3rd step of the
 method and `Risk treatment plan management`.
 2.  Order the recommendation positions holding down the left mouse
-button on symbol image:MoveButton.png[Move button] and move it.
+button on icon image:MoveButton.png[Move button,pdfwidth=4%,width=4%] and move it.
 3.  Reset the positions in importance order (Imp.)
 4.  Edit recommendation
 
