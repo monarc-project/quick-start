@@ -6,7 +6,8 @@ html: prepare
 	asciidoctor *.adoc -D $(OUTPUT)/html
 
 pdf: prepare
-	asciidoctor -r asciidoctor-pdf -b pdf *.adoc \
+	asciidoctor -a pdf-style=Monarc-theme.yml \
+		-r asciidoctor-pdf -b pdf *.adoc \
 		-o $(OUTPUT)/pdf/quick-start.pdf
 
 prepare:

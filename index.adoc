@@ -1,5 +1,6 @@
 = Quick Start
 CASES Luxembourg <info@cases.lu>
+v{docdate}
 :title-logo-image: images/header.svg
 :Date: 2017-09-05
 :Revision:  0.1
