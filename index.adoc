@@ -84,6 +84,10 @@ documentation.
 |====
 |image:Cursor.png[Cursor] |Most fields of MONARC display additional information when the pointer stay unmoved some time.
 |====
+[cols="^,7a",grid="none",frame="none",valign="middle"]
+|====
+|image:Export.png[Cursor] |Export any table (.csv) or graphic (.png).
+|====
 
 <<<
 
@@ -94,15 +98,13 @@ After clicking on
 
 image:NewRiskAnalysis.png[Create a risk analysis]
 
-1.  Select `CASES model`
+1.  Select `List of risks models`
 2.  There are at least two choices. Select `Modelling CASES`, this is
 the default template. It provides sufficient knowledge bases to start an
 analysis.
-3.  `Show inherent operational risks`. This option does not matter right
-now.
-4.  Select your preferred language for this new analysis. (FR/EN/DE/NL)
-5.  Give your analysis a name, for example __My analysis__.
-6.  Optional field, which allows you to describe your analysis with more
+3.  Select your preferred language for this new analysis. (FR/EN/DE/NL)
+4.  Give your analysis a name, for example __My analysis__.
+5.  Optional field, which allows you to describe your analysis with more
 details.
 
 <<<
