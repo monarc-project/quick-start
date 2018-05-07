@@ -86,7 +86,7 @@ documentation.
 |====
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:Export.png[Cursor] |Export any table (.csv) or graphic (.png).
+|image:Export.png[Export] |Export any table (.csv) or graphic (.png).
 |====
 
 <<<
