@@ -257,7 +257,7 @@ footer:
   recto:
     #columns: "<50% =0% >50%"
     left:
-      content: 'CASES Luxembourg'
+      content: 'NC3 Luxembourg'
     right:
       content: 'Page {page-number} / {page-count}'
       #content: '{section-or-chapter-title} | {page-number}'

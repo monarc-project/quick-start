@@ -1,8 +1,7 @@
 = Quick Start
-CASES Luxembourg <info@cases.lu>
+NC3 Luxembourg <info@nc3.lu>
 v{docdate}
-:title-logo-image: images/header.svg
-:Date: 2017-09-05
+:Date: 2023-01-31
 :Revision:  0.1
 :description: MONARC Quick Start
 :keywords: risk-analysis, monarc
@@ -99,7 +98,7 @@ After clicking on
 image:NewRiskAnalysis.png[Create a risk analysis]
 
 1.  Select `List of risks models`
-2.  There are at least two choices. Select `Modelling CASES`, this is
+2.  There are at least two choices. Select `Modelling NC3`, this is
 the default template. It provides sufficient knowledge bases to start an
 analysis.
 3.  Select your preferred language for this new analysis. (FR/EN/DE/NL)
