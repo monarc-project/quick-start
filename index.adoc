@@ -42,27 +42,24 @@ v{docdate}
 
 === Purpose
 
-The purpose of this document is to help get started quickly with MONARC.
-It explains the main features of the tool and the necessary steps to
-deal with a risk with the default settings.
+The purpose of this document is to help you get started quickly with MONARC.
+The Quick Start Guide outlines the tool's main features and provides the essential steps for addressing risks using the default settings.
 
 
 === Other documents
 
 [NOTE]
 ===============================================
-* link:/user-guide[*User Guide*]: Complete documentation of the tool.
-* link:/method-guide[*Method Guide*]: Complete documentation of the
-method.
-* link:/technical-guide[*Technical Guide*]: Complete technical
-documentation.
+* link:/user-guide[*User Guide*]: Provides the complete documentation of the tool.
+* link:/method-guide[*Method Guide*]: Provides the complete documentation of the method.
+* link:/technical-guide[*Technical Guide*]: Provides the complete technical documentation of the tool.
 ===============================================
 
 === Syntax used in the document
 
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:Step.png[Cursor] |All numbers in white on a red background are used on print-screen views to provide additional explanations. Explanations are always after the view with the corresponding numbering. *i.e.* 1.
+|image:Step.png[Cursor] |All numbers in white on an orange background are used on print-screen views to provide additional explanations. Explanations are always after the view with the corresponding numbering. *i.e.* 1.
 |====
 [cols="^a,7a",grid="none",frame="none",valign="middle"]
 |====
@@ -73,15 +70,15 @@ documentation.
 
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:Menu.png[Menu]| Button that always brings up the menu.
+|image:Menu.png[Menu]|  The three-dot menu icon brings brings up the menu items.
 |====
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:CreateButton.png[Create] |Creating/adding something in context (assets, recommendations, etc.).
+|image:CreateButton.png[Create] |Create/add something in context (assets, recommendations, etc.).
 |====
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:Cursor.png[Cursor] |Most fields of MONARC display additional information when the pointer stay unmoved some time.
+|image:Cursor.png[Cursor] |Most fields of MONARC display additional information when the pointer stay unmoved for some time.
 |====
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
@@ -93,53 +90,48 @@ documentation.
 == Creating the first risk analysis
 
 After clicking on
-`Create a risk analysis`, the following pop-up appear
+`Create a risk analysis`, 
 
-image:NewRiskAnalysis.png[Create a risk analysis]
+image:RiskAnalysis_1_800.png[Create a risk analysis]
+
+the following pop-up appears:
+
+image:RiskAnalysis_2_800.png[Create a risk analysis]
 
 1.  Select `List of risks models`
-2.  There are at least two choices. Select `Modelling NC3`, this is
-the default template. It provides sufficient knowledge bases to start an
-analysis.
+2.  There are at least two choices. Select `Modelling NC3`. 
+Modelling NC3 is the default template made available by the MONARC editor. 
+It provides sufficient knowledge bases to start a risk analysis. 
+This option should be used by default to start a new risk analysis. 
 3.  Select your preferred language for this new analysis. (FR/EN/DE/NL)
-4.  Give your analysis a name, for example __My analysis__.
-5.  Optional field, which allows you to describe your analysis with more
-details.
+4.  Give a name for your risk analysis, for example, __My analysis__.
+5.  Optional field, which allows you to describe your analysis in more detail.
 
 <<<
 
 == Description of the main view
 
-image:Main.png[Main view]
+image:RiskAnalysis_3_800[Main view]
 
 1.  Risk Analyses panel: Create and select a risk analysis. Once the
-analysis is selected, the dashboard can be retracted to optimize the
-horizontal space by clicking on icon image:HideRiskAnalysesPanel.png[Hide Risk Analyses panel icon,pdfwidth=3%,width=3%].
-2.  Navigation panel, users administration and account management.
-3.  Access to steps of the method by clicking on numbers 1 to 4.
+analysis is selected, the left column can be retracted to optimize the
+horizontal space by clicking on the icon image:HideRiskAnalysesPanel.png[Hide Risk Analyses panel icon,pdfwidth=3%,width=3%].
+2.  Navigation panel: User administration and account management.
+3.  Access to steps of the method by clicking on numbers `1` to `4`.
 4.  Contextual working areas of analysis.
 
 <<<
 
 == Simplified risk analysis
 
-=== Risk identification (default modeling)
+=== Risk identification (default modelling)
 
-It is necessary to use the
-assets of the library and place them in the analysis. If the risk
-analysis does not contain any assets, follow the instructions below,
-otherwise go to the next chapter. MONARC proposes by default a structure
-where primary assets (Business) must be placed on the root of the
-analysis and supporting assets below. In order to simplify this step,
-two groups of assets have been created:
+It is necessary to use the assets of the library and place them in the analysis. If the risk analysis does not contain any assets, follow the instructions below,
+otherwise go to the next chapter. By default, MONARC suggests a structure where primary assets (business assets) are placed at the root of the analysis, with supporting assets organized beneath them.
+In order to simplify this step, two groups of assets have been created:
 
-* `Front-Office`: This asset group provides the identification of the
-common risks found on the user’s side for a “Human Resources” department
-(for example, risks related to the office, computers, applications,
-physical & environmental risks…).
-* `Back-Office`: These assets group provide the identification of
-transversal risks of the organization related to the IT and to
-organizations in general.
+* `Front-Office`: This asset group identifies common risks associated with a 'Human Resources' department from the user's perspective, including risks related to office spaces, computers, applications, and physical and environmental factors.
+* `Back-Office`: This asset group identifies cross-functional risks within the organization, specifically those related to IT and general organizational functions.
 
 image:Modelling.png[Modelling]
 
@@ -151,9 +143,9 @@ holding down the left mouse button, move the asset to the analysis area
 just above (Drag and Drop).
 2.  In the category `Model Structure` find the assets `Front Office` and
 `Back Office` and then, by holding down the left mouse button, move the
-asset on the asset Department, which is now in the analysis area.
+asset to the asset Department, which is now in the analysis area.
 
-image:Model.png[Model]
+image:DefaultRiskModelling_1_800.png[Default Risk Modelling]
 
 1.  The risk analysis now offers a model for __Department__.
 2.  The _Front Office_ now offers a default identification of the risks
@@ -162,8 +154,8 @@ on the users’ side.
 for IT and organization.
 4.  The total number of risks in this model is 84 (in this case).
 
-IMPORTANT: Identified risks by default are the risks commonly encountered
-and supposed to be significant, they do not claim to be exhaustive.
+IMPORTANT: The Identified risks are those commonly encountered
+and considered significant by default, though they are not intended to be exhaustive.
 
 === Edit impacts and consequences
 
