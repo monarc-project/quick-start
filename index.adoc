@@ -159,30 +159,26 @@ and considered significant by default, though they are not intended to be exhaus
 
 === Edit impacts and consequences
 
-The aim is to define impacts and consequences for primary assets that can result
-from an occurrence of a
-risk from the model. In the case of this analysis, the primary asset is
-__Department__.
+The goal is to define the impacts and consequences on primary assets that may result from a risk occurring within the model. 
+In this analysis, the primary asset is the __Department__.
 
-image:EditImpacts.png[Edit impacts]
+image:EditImpacts_1_800.png[Edit impacts]
 
 1.  Click on the primary asset `Department`.
-2.  Click on icon image:Menu.png[Menu,pdfwidth=4%,width=4%]to display the
-context menu of the asset.
+2.  Click on the icon image:Menu.png[Menu,pdfwidth=4%,width=4%]to display the context menu of the asset.
 3.  Click on `Edit impacts`.
 
 The pop-up below appears.
 
-image:Impacts.png[Impacts]
+image:EditImpacts_2_800.png[Edit Impacts]
 
-1.  Consultation of impact scales is done through the menu at the top
-right of the screen.
+1.  Consultation of impact scales is done through the menu at the top right of the screen.
 
 TIP: _By leaving the pointer unmoved over the numbers,
 the meaning of this number appears after one second._
 
 When one of the criteria *C* (confidentiality), *I* (integrity) or *A*
-(availability) is allocated, there is a need to ask : what are the
+(availability) is allocated, there is a need to ask: what are the
 consequences on the company, and more particularly on its ROLFP, i.e.
 its **R**eputation, its **O**peration, its **L**egal, its **F**inances
 or the impact on the **P**erson (in the sense of personal data).
@@ -194,26 +190,25 @@ of disclosure of his personal file.
 
 === Risk assessment
 
-image:RiskAssessment.png[Risk assessment]
+image:RiskAssessmentTable_1_800.png[Risk assessment]
 
 1.  Click on a secondary asset, for example `Building`.
-2.  `CIA Impact`: It has been assigned to the _Department_ is inherited
-by default and are no longer required.
+2.  `CIA Impact`: It has been assigned to the _Department_ and is inherited
+by default, so no further action is required.
 3.  `Threat`: _Theft or destruction of media, documents or equipment_ is
 a physical threat that expresses fear of being robbed or destroyed
 materials.
-4.  `probability (Prob.)` : This is an estimate of the probability on a
+4.  `probability (Prob.)`: This is an estimate of the probability on a
 scale of 1 to 4 that the threat occurs. Take, for example, the case of a
 very large company where this threat is above average, so **3**.
 5.  `Vulnerability`: __The principle of least privilege is not
-applied__. The security principles searched are to know who has access
-rights and whether they related to the duties of the people involved.
+applied__. The security principles focus on determining who has access rights and whether those rights align with the responsibilities of the individuals involved.
 6.  `Existing controls`: Describe, in a factual manner, the security
 controls in place regarding this vulnerability or, more broadly, the
-risk in question. Take, for example, a second unfavorable case, for
+risk in question. Take, for example, a second unfavourable case, for
 example a hospital where the whole building is like a public area.
-7.  `Qualification (Qualif.)` : In relation to the measure in place
-(point 6 above), the vulnerability qualification is therefore maximum
+7.  `Qualification (Qualif.)`: Concerning the measure in place
+(point 6 above), the vulnerability qualification is therefore maximum of
 *5* out of 5.
 8.  `Current Risk` : All the parameters for calculating the risk are
 present, the current risk is therefore calculated based on the CIA
@@ -224,36 +219,35 @@ TIP: _By leaving the pointer on most fields, a tooltip appears after
 
 === Risk treatment
 
-The risk treatment consists in proposing one of the 4 types of
+The risk treatment consists of proposing one of the 4 types of
 treatment, knowing that most of the time the treatment is to reduce the
 risk by allocating a control, or to accept a weak risk. To access click
-on `Not treated` in __Treatment column__.
+on `Not treated` in the __Treatment column__.
 
-image:RiskTreatment.png[Risk treatment]
+image:RiskTreatmentTable_1_800.png[Risk treatment]
 
 1.  Create one or many recommendations.
 2.  Define the treatment type (according to ISO / IEC 27005).
-3.  Estimate the risk-reducing value in order to define the residual
-risk.
-4.  Save the treatment.
+3.  Estimate the risk-reducing value in order to define the residual risk.
+4.  Save the treatment (or click ‘Next’ in case you do more than one risk treatment at once).
 
 === Risk treatment plan management
 
 image:PlanTreatment.png[Plan risk treatment]
 
-In that case, the risk treatment plan only consists in one risk, but
+In that case, the risk treatment plan only consists of one risk, but
 once all risks are treated, all risks and information risk
 recommendations will be in the treatment plan.
 
 1.  The call of the pop-up is done by clicking on the 3rd step of the
-method and `Risk treatment plan management`.
-2.  Order the recommendation positions holding down the left mouse
-button on icon image:MoveButton.png[Move button,pdfwidth=4%,width=4%] and move it.
+method (Evaluation and treatment of risks) and choosing the link `Risk treatment plan management`.
+2.  Order the recommendation positions by holding down the left mouse
+button on the icon image:MoveButton.png[Move button,pdfwidth=4%,width=4%] and moving it.
 3.  Reset the positions in importance order (Imp.)
 4.  Edit recommendation
 
-A final report of risk analysis can be generated by clicking on the 3rd
-step of the method and `Deliverable: final report`.
+A final report of the risk analysis can be generated by clicking on the 3rd
+step of the method and choosing the link `Deliverable: final report`.
 
 NOTE: Deliverables are only relevant when the MONARC method has been
 fully processed and all information has been entered.
