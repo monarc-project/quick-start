@@ -111,7 +111,7 @@ This option should be used by default to start a new risk analysis.
 
 == Description of the main view
 
-image:RiskAnalysis_3_800[Main view]
+image:RiskAnalysis_3_800.png[Main view]
 
 1.  Risk Analyses panel: Create and select a risk analysis. Once the
 analysis is selected, the left column can be retracted to optimize the
