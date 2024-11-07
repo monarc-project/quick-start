@@ -127,7 +127,9 @@ horizontal space by clicking on the icon image:HideRiskAnalysesPanel.png[Hide Ri
 === Risk identification (default modelling)
 
 It is necessary to use the assets of the library and place them in the analysis. If the risk analysis does not contain any assets, follow the instructions below,
-otherwise go to the next chapter. By default, MONARC suggests a structure where primary assets (business assets) are placed at the root of the analysis, with supporting assets organized beneath them.
+otherwise go to the next chapter. 
+
+By default, MONARC suggests a structure where primary assets (business assets) are placed at the root of the analysis, with supporting assets organized beneath them.
 In order to simplify this step, two groups of assets have been created:
 
 * `Front-Office`: This asset group identifies common risks associated with a 'Human Resources' department from the user's perspective, including risks related to office spaces, computers, applications, and physical and environmental factors.
@@ -198,7 +200,7 @@ by default, so no further action is required.
 3.  `Threat`: _Theft or destruction of media, documents or equipment_ is
 a physical threat that expresses fear of being robbed or destroyed
 materials.
-4.  `probability (Prob.)`: This is an estimate of the probability on a
+4.  `Probability (Prob.)`: This is an estimate of the probability on a
 scale of 1 to 4 that the threat occurs. Take, for example, the case of a
 very large company where this threat is above average, so **3**.
 5.  `Vulnerability`: __The principle of least privilege is not
@@ -221,7 +223,7 @@ TIP: _By leaving the pointer on most fields, a tooltip appears after
 
 The risk treatment consists of proposing one of the 4 types of
 treatment, knowing that most of the time the treatment is to reduce the
-risk by allocating a control, or to accept a weak risk. To access click
+risk by allocating a control, or to accept a weak risk. To access the risk treatment table, click
 on `Not treated` in the __Treatment column__.
 
 image:RiskTreatmentTable_1_800.png[Risk treatment]
@@ -230,6 +232,10 @@ image:RiskTreatmentTable_1_800.png[Risk treatment]
 2.  Define the treatment type (according to ISO / IEC 27005).
 3.  Estimate the risk-reducing value in order to define the residual risk.
 4.  Save the treatment (or click ‘Next’ in case you do more than one risk treatment at once).
+
+
+
+
 
 === Risk treatment plan management
 
@@ -241,7 +247,7 @@ recommendations will be in the treatment plan.
 
 1.  The call of the pop-up is done by clicking on the 3rd step of the
 method (Evaluation and treatment of risks) and choosing the link `Risk treatment plan management`.
-2.  Order the recommendation positions by holding down the left mouse
+2.  You can order the recommendation positions by holding down the left mouse
 button on the icon image:MoveButton.png[Move button,pdfwidth=4%,width=4%] and moving it.
 3.  Reset the positions in importance order (Imp.)
 4.  Edit recommendation
