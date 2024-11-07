@@ -43,7 +43,7 @@ v{docdate}
 === Purpose
 
 The purpose of this document is to help you get started quickly with MONARC.
-The Quick Start Guide outlines the tool's main features and provides the essential steps for addressing risks using the default settings.
+The Quick Start Guide outlines the tool's main features and shows the essential steps for addressing risks using the default settings.
 
 
 === Other documents
@@ -59,7 +59,7 @@ The Quick Start Guide outlines the tool's main features and provides the essenti
 
 [cols="^,7a",grid="none",frame="none",valign="middle"]
 |====
-|image:Step.png[Cursor] |All numbers in white on an orange background are used on print-screen views to provide additional explanations. Explanations are always after the view with the corresponding numbering. *i.e.* 1.
+|image:Step.png[Cursor] |All numbers displayed in white on an orange background are used in print-screen views to provide additional explanations. Explanations are always after the view with the corresponding numbering. *i.e.* 1.
 |====
 [cols="^a,7a",grid="none",frame="none",valign="middle"]
 |====
